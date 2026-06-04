@@ -1,0 +1,47 @@
+INSTRUCCIONES DE USO
+
+1. Abrir la consola de comandos (CMD).
+
+2. Tener Python instalado en el equipo.
+
+3. Instalar las librerías necesarias (solo una vez):
+
+   python -m pip install streamlit pandas folium streamlit-folium geopy
+
+4. Navegar hasta la carpeta del proyecto:
+
+   cd ruta\de\la\carpeta\Geografía
+
+Ejemplo:
+
+   cd C:\Users\Usuario\Desktop\Procesador_Comunas
+
+5. Ejecutar el programa:
+
+   python -m streamlit run main.py
+
+6. Carga automática de datos:
+
+   El sistema leerá automáticamente el archivo lugares.csv presente en la carpeta.
+
+7. Procesamiento de coordenadas:
+
+   El programa iniciará la geocodificación automática de los lugares únicos del archivo.
+
+   Al ser la primera vez, tardará un poco por seguridad para no saturar el servidor. Las siguientes veces 	cargará de inmediato gracias al caché.
+
+   Cuando finalice la carga un enlace local y URL aparecerán para seleccionar y abrir en web (ctr + click)
+
+8. Interacción con el mapa mundial:
+
+   Se desplegará un mapa interactivo con marcadores en cada destino encontrado.
+
+   Se puede hacer zoom y arrastrar el mapa libremente.
+
+9. Redirección a Google Maps:
+
+   Al hacer click sobre cualquier marcador del mapa un globo con el nombre del lugar y un botón para ver en 	Google maps aparecerá.
+
+10. Vista de datos consolidados:
+
+    En la parte inferior de la pagina se podrá visualizar la tabla resumen con todos los nombres procesados 	junto a sus respectivas coordenadas de latitud y longitud

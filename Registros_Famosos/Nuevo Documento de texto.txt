@@ -1,0 +1,58 @@
+INSTRUCCIONES DE USO - PROYECTO FAMOSOS
+
+1. Abrir la consola de comandos (CMD o Terminal).
+
+2. Tener Python instalado en el equipo.
+
+3. Instalar las librerías necesarias (solo una vez):
+
+   pip install pandas requests pillow
+
+4. Navegar hasta la carpeta del proyecto:
+
+   cd ruta\de\la\carpeta\Normalizador_Famosos
+
+   Ejemplo:
+   cd C:\Users\Usuario\Desktop\Registros_Famosos
+
+5. Ejecutar el programa principal:
+
+   python main_famosos.py
+
+6. Al abrirse la ventana "Famosos", verás el listado con el formato del nuevo documento:
+
+   • [NOMBRE DEL FAMOSO] - [EDAD] años
+
+   Ejemplo:
+   • ABRAHAM LINCOLN - 217 años
+   • JULIUS CAESAR - 2126 años
+   • ALBERT EINSTEIN - 147 años
+
+7. Para ver el detalle de un famoso:
+
+   • Hacer clic sobre el nombre en la lista para seleccionarlo.
+   • Presionar el botón "Ver información".
+
+8. Al abrirse el visor detallado, la app mostrará:
+
+   • Nombre del famoso.
+   • Imagen oficial (escalada correctamente a 300x300 sin deformarse).
+   • Resumen biográfico obtenido de Wikipedia.
+   • Enlace de la fuente de datos.
+
+9. Optimización de consultas (Sistema de Caché):
+
+   • La primera vez que buscas a un famoso, la app viaja a internet a buscar sus datos.
+   • Las siguientes veces, los cargará al instante desde el archivo local "cache_famosos.json".
+   • Esto ahorra datos y evita que la API bloquee la app por exceso de consultas.
+
+10. Si un famoso no tiene foto disponible en Wikipedia:
+   • El sistema no se caerá; en su lugar, mostrará un recuadro gris por defecto.
+
+11. Los archivos generados por el sistema estarán en:
+
+   • Carpeta "outputs"
+     - famosos_consolidados.csv (Lista limpia con las edades ya calculadas).
+
+   • Carpeta "data"
+     - cache_famosos.json (Historial de datos e imágenes guardadas de la API).

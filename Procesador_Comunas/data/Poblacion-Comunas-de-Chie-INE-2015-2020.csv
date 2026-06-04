@@ -1,0 +1,347 @@
+﻿REGION,COMUNA,HABITANTES
+I Tarapacá,Alto Hospicio,134085
+I Tarapacá,Camiña,1384
+I Tarapacá,Colchane,1588
+I Tarapacá,Huara,3043
+I Tarapacá,Iquique,227127
+I Tarapacá,Pica,6085
+I Tarapacá,Pozo Almonte,17853
+II Antofagasta,Antofagasta,433712
+II Antofagasta,Calama,193343
+II Antofagasta,María Elena,6773
+II Antofagasta,Mejillones,15168
+II Antofagasta,Ollagüe,283
+II Antofagasta,San Pedro de Atacama,10675
+II Antofagasta,Sierra Gorda,1772
+II Antofagasta,Taltal,13806
+II Antofagasta,Tocopilla,28214
+III Atacama,Alto del Carmen,5754
+III Atacama,Caldera,19612
+III Atacama,Chañaral,13149
+III Atacama,Copiapó,173253
+III Atacama,Diego de Almagro,14258
+III Atacama,Freirina,7739
+III Atacama,Huasco,11374
+III Atacama,Tierra Amarilla,14374
+III Atacama,Vallenar,57224
+IV Coquimbo,Andacollo,11818
+IV Coquimbo,Canela,9548
+IV Coquimbo,Combarbalá,13893
+IV Coquimbo,Coquimbo,261811
+IV Coquimbo,Illapel,32899
+IV Coquimbo,La Higuera,4478
+IV Coquimbo,La Serena,254445
+IV Coquimbo,Los Vilos,23668
+IV Coquimbo,Monte Patria,32607
+IV Coquimbo,Ovalle,122241
+IV Coquimbo,Paiguano,4690
+IV Coquimbo,Punitaqui,12271
+IV Coquimbo,Río Hurtado,4361
+IV Coquimbo,Salamanca,29359
+IV Coquimbo,Vicuña,29990
+V Valparaíso,Algarrobo,15436
+V Valparaíso,Cabildo,20715
+V Valparaíso,Calle Larga,16804
+V Valparaíso,Cartagena,25815
+V Valparaíso,Casablanca,29556
+V Valparaíso,Catemu,15360
+V Valparaíso,Concón,46527
+V Valparaíso,El Quisco,18056
+V Valparaíso,El Tabo,14587
+V Valparaíso,Hijuela,19218
+V Valparaíso,Isla de Pascua,8445
+V Valparaíso,Juan Fernández,1053
+V Valparaíso,La Calera,53736
+V Valparaíso,La Cruz,26008
+V Valparaíso,La Ligua,37957
+V Valparaíso,Limache,50439
+V Valparaíso,Llaillay,26760
+V Valparaíso,Los Andes,68401
+V Valparaíso,Nogales,23559
+V Valparaíso,Olmué,19535
+V Valparaíso,Panquehue,7694
+V Valparaíso,Papudo,6270
+V Valparaíso,Petorca,10590
+V Valparaíso,Puchuncaví,20391
+V Valparaíso,Putaendo,17768
+V Valparaíso,Quillota,98561
+V Valparaíso,Quilpué,168931
+V Valparaíso,Quintero,36821
+V Valparaíso,Rinconada,11471
+V Valparaíso,San Antonio,97323
+V Valparaíso,San Esteban,20952
+V Valparaíso,San Felipe,84445
+V Valparaíso,Santa María,16539
+V Valparaíso,Santo Domingo,12126
+V Valparaíso,Valparaíso,317424
+V Valparaíso,Villa Alemana,141528
+V Valparaíso,Viña del Mar,364472
+V Valparaíso,Zapallar,8100
+VI O'Higgins,Chépica,16003
+VI O'Higgins,Chimbarongo,37935
+VI O'Higgins,Codegua,14247
+VI O'Higgins,Coinco,7891
+VI O'Higgins,Coltauco,21507
+VI O'Higgins,Doñihue,22964
+VI O'Higgins,Graneros,36972
+VI O'Higgins,La Estrella,3113
+VI O'Higgins,Las Cabras,27034
+VI O'Higgins,Litueche,6820
+VI O'Higgins,Lolol,7346
+VI O'Higgins,Machalí,61254
+VI O'Higgins,Malloa,14213
+VI O'Higgins,Marchihue,7656
+VI O'Higgins,Mostazal,27765
+VI O'Higgins,Nancagua,19309
+VI O'Higgins,Navidad,6968
+VI O'Higgins,Olivar,14736
+VI O'Higgins,Palmilla,13386
+VI O'Higgins,Paredones,6335
+VI O'Higgins,Peralillo,11946
+VI O'Higgins,Peumo,14987
+VI O'Higgins,Pichidegua,20855
+VI O'Higgins,Pichilemu,18136
+VI O'Higgins,Placilla,9199
+VI O'Higgins,Pumanque,3532
+VI O'Higgins,Quinta de Tilcoco,13995
+VI O'Higgins,Rancagua,267829
+VI O'Higgins,Rengo,64313
+VI O'Higgins,Requínoa,30749
+VI O'Higgins,San Fernando,79353
+VI O'Higgins,San Vicente,51100
+VI O'Higgins,Santa Cruz,41511
+VII Maule,Cauquenes,44253
+VII Maule,Chanco,9319
+VII Maule,Colbún,22813
+VII Maule,Constitución,50479
+VII Maule,Curepto,9353
+VII Maule,Curicó,165757
+VII Maule,Empedrado,4196
+VII Maule,Hualañé,10232
+VII Maule,Licantén,6993
+VII Maule,Linares,101895
+VII Maule,Longaví,33051
+VII Maule,Maule,62394
+VII Maule,Molina,50413
+VII Maule,Parral,44844
+VII Maule,Pelarco,9171
+VII Maule,Pelluhue,8187
+VII Maule,Pencahue,8614
+VII Maule,Rauco,11384
+VII Maule,Retiro,21194
+VII Maule,Río Claro,14859
+VII Maule,Romeral,16370
+VII Maule,Sagrada Familia,19556
+VII Maule,San Clemente,46751
+VII Maule,San Javier,49994
+VII Maule,San Rafael,10078
+VII Maule,Talca,238343
+VII Maule,Teno,31132
+VII Maule,Vichuquén,4365
+VII Maule,Villa Alegre,17656
+VII Maule,Yerbas Buenas,19366
+VIII Biobío,Alto Biobío,6789
+VIII Biobío,Antuco,4312
+VIII Biobío,Arauco,38769
+VIII Biobío,Cabrero,30842
+VIII Biobío,Cañete,37139
+VIII Biobío,Chiguayante,91435
+VIII Biobío,Concepción,238661
+VIII Biobío,Contulmo,6340
+VIII Biobío,Coronel,126729
+VIII Biobío,Curanilahue,33921
+VIII Biobío,Florida,11855
+VIII Biobío,Hualpén,97536
+VIII Biobío,Hualqui,26366
+VIII Biobío,Laja,23896
+VIII Biobío,Lebu,27128
+VIII Biobío,Los Álamos,22647
+VIII Biobío,Los Ángeles,220030
+VIII Biobío,Lota,45672
+VIII Biobío,Mulchén,31078
+VIII Biobío,Nacimiento,27981
+VIII Biobío,Negrete,10474
+VIII Biobío,Penco,49975
+VIII Biobío,Quilaco,4186
+VIII Biobío,Quilleco,10023
+VIII Biobío,San Pedro de la Paz,148070
+VIII Biobío,San Rosendo,3595
+VIII Biobío,Santa Bárbara,14625
+VIII Biobío,Santa Juana,14819
+VIII Biobío,Talcahuano,158347
+VIII Biobío,Tirúa,11046
+VIII Biobío,Tomé,58873
+VIII Biobío,Tucapel,15273
+VIII Biobío,Yumbel,22158
+IX La Araucanía,Angol,56289
+IX La Araucanía,Carahue,25505
+IX La Araucanía,Cholchol,12427
+IX La Araucanía,Collipulli,26271
+IX La Araucanía,Cunco,18065
+IX La Araucanía,Curacautín,18196
+IX La Araucanía,Curarrehue,7826
+IX La Araucanía,Ercilla,8446
+IX La Araucanía,Freire,25472
+IX La Araucanía,Galvarino,12623
+IX La Araucanía,Gorbea,15137
+IX La Araucanía,Lautaro,41065
+IX La Araucanía,Loncoche,24766
+IX La Araucanía,Lonquimay,11071
+IX La Araucanía,Los Sauces,7510
+IX La Araucanía,Lumaco,10015
+IX La Araucanía,Melipeuco,6283
+IX La Araucanía,Nueva Imperial,33898
+IX La Araucanía,Padre Las Casas,83009
+IX La Araucanía,Perquenco,7241
+IX La Araucanía,Pitrufquén,26245
+IX La Araucanía,Pucón,30052
+IX La Araucanía,Purén,12167
+IX La Araucanía,Renaico,10884
+IX La Araucanía,Saavedra,12764
+IX La Araucanía,Temuco,304871
+IX La Araucanía,Teodoro Schmidt,15784
+IX La Araucanía,Toltén,10027
+IX La Araucanía,Traiguén,19315
+IX La Araucanía,Victoria,35512
+IX La Araucanía,Vilcún,31258
+IX La Araucanía,Villarrica,59554
+X Los Lagos,Ancud,42494
+X Los Lagos,Calbuco,36997
+X Los Lagos,Castro,47934
+X Los Lagos,Chaitén,5033
+X Los Lagos,Chonchi,16092
+X Los Lagos,Cochamó,3991
+X Los Lagos,Curaco de Vélez,4086
+X Los Lagos,Dalcahue,15178
+X Los Lagos,Fresia,12638
+X Los Lagos,Frutillar,20387
+X Los Lagos,Futaleufú,2835
+X Los Lagos,Hualaihué,9546
+X Los Lagos,Llanquihue,18694
+X Los Lagos,Los Muermos,17828
+X Los Lagos,Maullín,14859
+X Los Lagos,Osorno,174269
+X Los Lagos,Palena,1826
+X Los Lagos,Puerto Montt,272555
+X Los Lagos,Puerto Octay,9159
+X Los Lagos,Puerto Varas,49332
+X Los Lagos,Puqueldón,4199
+X Los Lagos,Purranque,21060
+X Los Lagos,Puyehue,11800
+X Los Lagos,Queilén,5547
+X Los Lagos,Quellón,29538
+X Los Lagos,Quemchi,8779
+X Los Lagos,Quinchao,8272
+X Los Lagos,Río Negro,14229
+X Los Lagos,San Juan de la Costa,7590
+X Los Lagos,San Pablo,10556
+XI Aysén,Aysén,25085
+XI Aysén,Chile Chico,5138
+XI Aysén,Cisnes,5845
+XI Aysén,Cochrane,3704
+XI Aysén,Coyhaique,61496
+XI Aysén,Guaitecas,1604
+XI Aysén,Lago Verde,919
+XI Aysén,O´Higgins,665
+XI Aysén,Río Ibáñez,2705
+XI Aysén,Tortel,576
+XII Magallanes y la Antártica,Antártica,141
+XII Magallanes y la Antártica,Cabo de Hornos,1983
+XII Magallanes y la Antártica,Laguna Blanca,259
+XII Magallanes y la Antártica,Natales,24044
+XII Magallanes y la Antártica,Porvenir,7421
+XII Magallanes y la Antártica,Primavera,689
+XII Magallanes y la Antártica,Punta Arenas,143205
+XII Magallanes y la Antártica,Río Verde,212
+XII Magallanes y la Antártica,San Gregorio,674
+XII Magallanes y la Antártica,Timaukel,281
+XII Magallanes y la Antártica,Torres del Paine,1040
+XIII Región Metropolitana,Alhué,7536
+XIII Región Metropolitana,Buin,111934
+XIII Región Metropolitana,Calera de Tango,29019
+XIII Región Metropolitana,Cerrillos,89520
+XIII Región Metropolitana,Cerro Navia,142304
+XIII Región Metropolitana,Colina,185599
+XIII Región Metropolitana,Conchalí,139394
+XIII Región Metropolitana,Curacaví,36991
+XIII Región Metropolitana,El Bosque,171789
+XIII Región Metropolitana,El Monte,40620
+XIII Región Metropolitana,Estación Central,214470
+XIII Región Metropolitana,Huechuraba,114453
+XIII Región Metropolitana,Independencia,147655
+XIII Región Metropolitana,Isla de Maipo,40803
+XIII Región Metropolitana,La Cisterna,101126
+XIII Región Metropolitana,La Florida,405185
+XIII Región Metropolitana,La Granja,122028
+XIII Región Metropolitana,La Pintana,189454
+XIII Región Metropolitana,La Reina,100459
+XIII Región Metropolitana,Lampa,131436
+XIII Región Metropolitana,Las Condes,335296
+XIII Región Metropolitana,Lo Barnechea,126816
+XIII Región Metropolitana,Lo Espejo,103381
+XIII Región Metropolitana,Lo Prado,104405
+XIII Región Metropolitana,Macul,136278
+XIII Región Metropolitana,Maipú,584053
+XIII Región Metropolitana,María Pinto,15132
+XIII Región Metropolitana,Melipilla,143779
+XIII Región Metropolitana,Ñuñoa,255823
+XIII Región Metropolitana,Padre Hurtado,76219
+XIII Región Metropolitana,Paine,84379
+XIII Región Metropolitana,Pedro Aguirre Cerda,107409
+XIII Región Metropolitana,Peñaflor,102667
+XIII Región Metropolitana,Peñalolén,269296
+XIII Región Metropolitana,Pirque,31134
+XIII Región Metropolitana,Providencia,160043
+XIII Región Metropolitana,Pudahuel,256607
+XIII Región Metropolitana,Puente Alto,655033
+XIII Región Metropolitana,Quilicura,261993
+XIII Región Metropolitana,Quinta Normal,138904
+XIII Región Metropolitana,Recoleta,193605
+XIII Región Metropolitana,Renca,161959
+XIII Región Metropolitana,San Bernardo,339043
+XIII Región Metropolitana,San Joaquín,103871
+XIII Región Metropolitana,San José  de Maipo,18917
+XIII Región Metropolitana,San Miguel,136835
+XIII Región Metropolitana,San Pedro,12132
+XIII Región Metropolitana,San Ramón,86017
+XIII Región Metropolitana,Santiago,517280
+XIII Región Metropolitana,Talagante,82900
+XIII Región Metropolitana,Tiltil,21783
+XIII Región Metropolitana,Vitacura,97695
+XIV Los Ríos,Corral,5445
+XIV Los Ríos,Futrono,15251
+XIV Los Ríos,La Unión,39593
+XIV Los Ríos,Lago Ranco,10293
+XIV Los Ríos,Lanco,17762
+XIV Los Ríos,Los Lagos,20527
+XIV Los Ríos,Máfil,7390
+XIV Los Ríos,Mariquina,23458
+XIV Los Ríos,Paillaco,20848
+XIV Los Ríos,Panguipulli,36072
+XIV Los Ríos,Río Bueno,32953
+XIV Los Ríos,Valdivia,178226
+XV Arica y Parinacota,Arica,250795
+XV Arica y Parinacota,Camarones,1239
+XV Arica y Parinacota,General Lagos,810
+XV Arica y Parinacota,Putre,2536
+XVI Ñuble,Bulnes,22665
+XVI Ñuble,Chillán,200148
+XVI Ñuble,Chillán Viejo,34311
+XVI Ñuble,Cobquecura,5265
+XVI Ñuble,Coelemu,16871
+XVI Ñuble,Coihueco,28569
+XVI Ñuble,El Carmen,12307
+XVI Ñuble,Ninhue,5402
+XVI Ñuble,Ñiquén,11565
+XVI Ñuble,Pemuco,8631
+XVI Ñuble,Pinto,11965
+XVI Ñuble,Portezuelo,4925
+XVI Ñuble,Quillón,18924
+XVI Ñuble,Quirihue,12214
+XVI Ñuble,Ránquil,6275
+XVI Ñuble,San Carlos,56499
+XVI Ñuble,San Fabián,4693
+XVI Ñuble,San Ignacio,16630
+XVI Ñuble,San Nicolás,12261
+XVI Ñuble,Treguaco,5718
+XVI Ñuble,Yungay,18670

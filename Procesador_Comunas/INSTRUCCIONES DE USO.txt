@@ -1,0 +1,57 @@
+INSTRUCCIONES DE USO
+
+1. Abrir la consola de comandos (CMD).
+
+2. Tener Python instalado en el equipo.
+
+3. Instalar las librerías necesarias (solo una vez):
+
+   pip install pandas
+   pip install unidecode
+
+4. Navegar hasta la carpeta del proyecto:
+
+   cd ruta\de\la\carpeta\Procesador_Comunas
+
+   Ejemplo:
+
+   cd C:\Users\Usuario\Desktop\Procesador_Comunas
+
+5. Ejecutar el programa:
+
+   python main.py
+
+6. Al abrirse la ventana, seleccionar el formato de normalización:
+
+   • MAYÚSCULAS
+   • minúsculas
+   • Título
+
+7. Para procesar un archivo:
+
+   • Presionar "Cargar archivo"
+   • Seleccionar un archivo CSV, TXT o XLSX
+   • Esperar el mensaje de proceso completado
+
+8. Para buscar una comuna manualmente:
+
+   • Presionar "Buscar comuna"
+   • Escribir el nombre de la comuna
+   • Presionar "Buscar"
+
+9. Si la comuna no existe exactamente, el sistema mostrará sugerencias similares.
+
+   Ejemplo:
+
+   Florida
+   La Florida
+
+10. Los resultados generados estarán en:
+
+   • Carpeta "outputs"
+     - comunas_consolidadas.csv
+
+11. Los registros de ejecución estarán en:
+
+   • Carpeta "logs"
+     - auditoria.txt

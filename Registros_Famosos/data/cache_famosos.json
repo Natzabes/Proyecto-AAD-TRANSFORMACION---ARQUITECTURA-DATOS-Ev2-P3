@@ -1,0 +1,20 @@
+{
+    "Madonna": {
+        "nombre": "Madonna",
+        "descripcion": "Madonna Louise Ciccone is an American singer, songwriter, record producer, and actress. Dubbed the \"Queen of Pop\", she is known for her continual reinvention and versatility in music production, songwriting, and visual presentation. Madonna broke gender barriers in popular music through works that explored social, political, sexual, and religious themes and generated both controversy and critical acclaim. She has had a significant socio-cultural impact across her career and is regarded as one of the most influential musicians of all time.",
+        "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/MadonnaO2171023_%2897_of_133%29_%2853269593787%29_%28cropped%29.jpg/330px-MadonnaO2171023_%2897_of_133%29_%2853269593787%29_%28cropped%29.jpg",
+        "fuente": "https://en.wikipedia.org/api/rest_v1/page/summary/Madonna"
+    },
+    "Pele": {
+        "nombre": "Pelé",
+        "descripcion": "Edson Arantes do Nascimento, better known by his nickname Pelé, was a Brazilian professional footballer who played as a forward. Widely regarded as one of the greatest players in history, he was among the most successful and popular sports figures of the 20th century. His 1,279 goals in 1,363 games, which includes friendlies, is recognised as a Guinness World Record. In 1999, he was named Athlete of the Century by the International Olympic Committee and was included in the Time list of the 100 most important people of the 20th century. In 2000, Pelé was voted World Player of the Century by the International Federation of Football History & Statistics (IFFHS) and was one of the two joint winners of the FIFA Player of the Century, alongside Diego Maradona.",
+        "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Pele_con_brasil_%28cropped%29.jpg/330px-Pele_con_brasil_%28cropped%29.jpg",
+        "fuente": "https://en.wikipedia.org/api/rest_v1/page/summary/Pele"
+    },
+    "Diego Maradona": {
+        "nombre": "Diego Maradona",
+        "descripcion": "Diego Armando Maradona was an Argentine professional football player and manager. Widely regarded as one of the greatest players in the history of the sport, he was one of the two joint winners of the FIFA Player of the Century award, alongside Pelé.",
+        "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Argentina_celebrando_copa_%28cropped%29.jpg/330px-Argentina_celebrando_copa_%28cropped%29.jpg",
+        "fuente": "https://en.wikipedia.org/api/rest_v1/page/summary/Diego_Maradona"
+    }
+}
