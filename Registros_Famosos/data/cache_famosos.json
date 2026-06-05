@@ -107,5 +107,19 @@
         "fecha_consulta": "2026-06-05 01:49:46",
         "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Alexander_Mosaic_detail_of_Alexander_the_Great_%283x4_cropped%29.jpg/330px-Alexander_Mosaic_detail_of_Alexander_the_Great_%283x4_cropped%29.jpg",
         "fuente": "https://en.wikipedia.org/api/rest_v1/page/summary/Alexander_The_Great"
+    },
+    "Cleopatra": {
+        "nombre": "Cleopatra",
+        "descripcion": "Cleopatra VII Thea Philopator was Queen of the Ptolemaic Kingdom of Egypt from 51 to 30 BC, and the last active Hellenistic pharaoh. A member of the Ptolemaic dynasty, she was a descendant of its founder Ptolemy I Soter, a Macedonian Greek general and companion of Alexander the Great. Her first language was Koine Greek, and she is the only Ptolemaic ruler known to have learned the Egyptian language, among several others. After her death, Egypt became a province of the Roman Empire, marking the end of the Hellenistic period in the Mediterranean, which had begun during the reign of Alexander.",
+        "fecha_consulta": "2026-06-05 01:57:02",
+        "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Kleopatra-VII.-Altes-Museum-Berlin1.jpg/330px-Kleopatra-VII.-Altes-Museum-Berlin1.jpg",
+        "fuente": "https://en.wikipedia.org/api/rest_v1/page/summary/Cleopatra"
+    },
+    "newton": {
+        "nombre": "Newton",
+        "descripcion": "Newton most commonly refers to:Isaac Newton (1643–1727), English polymath\nNewton (unit), SI unit of force",
+        "fecha_consulta": "2026-06-05 02:00:07",
+        "imagen": null,
+        "fuente": "https://en.wikipedia.org/api/rest_v1/page/summary/newton"
     }
 }

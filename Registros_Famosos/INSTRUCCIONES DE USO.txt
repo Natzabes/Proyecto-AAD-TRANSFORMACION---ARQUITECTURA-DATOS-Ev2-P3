@@ -81,3 +81,6 @@ INSTRUCCIONES DE USO - PROYECTO FAMOSOS
 
    • Se requiere acceso a internet para obtener la información de Wikipedia la primera vez.
    • Las consultas posteriores pueden utilizar los datos almacenados en caché.
+
+---Extra
+Al abrir api_wikipedia.py en consola puedes buscar individualmente a un famoso ingresando su nombre. Esto tambien guardara su api en cache para futuras busquedas.
