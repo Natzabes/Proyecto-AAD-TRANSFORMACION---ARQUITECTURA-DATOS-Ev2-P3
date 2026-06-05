@@ -33,6 +33,15 @@ INSTRUCCIONES DE USO
    • Seleccionar un archivo CSV, TXT o XLSX
    • Esperar el mensaje de proceso completado
 
+   (Known issues) Acepta datos con SOLO comunas chilenas limpias. No normalizacion implementada.
+   
+   Ejemplo:
+   Iquique
+   Alto Hospicio
+   Pozo Almonte
+   Camiña
+   etc...
+
 8. Para buscar una comuna manualmente:
 
    • Presionar "Buscar comuna"
