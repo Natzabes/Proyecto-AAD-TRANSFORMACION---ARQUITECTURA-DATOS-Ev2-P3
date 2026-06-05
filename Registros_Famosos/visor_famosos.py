@@ -1,46 +1,159 @@
 import tkinter as tk
-from PIL import Image, ImageTk
+
+from PIL import (
+    Image,
+    ImageTk
+)
+
 import requests
 from io import BytesIO
 
 def mostrar_famoso(datos):
-    if not datos:
-        return
-
     ventana = tk.Toplevel()
-    ventana.title(datos["nombre"])
-    ventana.geometry("600x750")
 
-    lbl_nombre = tk.Label(ventana, text=datos["nombre"], font=("Arial", 18, "bold"))
-    lbl_nombre.pack(pady=10)
+    ventana.title(
+        datos["nombre"]
+    )
 
-    # Validación de la existencia de la imagen
+    ventana.geometry(
+        "600x700"
+    )
+
+    lbl_nombre = tk.Label(
+        ventana,
+        text=datos["nombre"],
+        font=("Arial", 18, "bold")
+    )
+
+    lbl_nombre.pack(
+        pady=10
+    )
+
     if datos["imagen"]:
-        try:
-            headers = {"User-Agent": "ProyectoFamosos/1.0"}
-            respuesta = requests.get(datos["imagen"], headers=headers)
-            imagen = Image.open(BytesIO(respuesta.content))
-        except Exception as e:
-            print(f"No se pudo cargar la imagen de internet: {e}")
-            imagen = Image.new('RGB', (300, 300), color='gray') # Imagen gris por defecto
+
+        headers = {
+            "User-Agent":
+            "ProyectoFamosos/1.0"
+        }
+
+        respuesta = requests.get(
+            datos["imagen"],
+            headers=headers
+        )
+
+        print("URL:")
+        print(datos["imagen"])
+
+        print("STATUS:")
+        print(respuesta.status_code)
+
+        print("TIPO:")
+        print(
+            respuesta.headers.get(
+                "Content-Type"
+            )
+        )
+
+        if respuesta.status_code == 200 and \
+        "image" in respuesta.headers.get(
+            "Content-Type",
+            ""
+        ):
+
+            imagen = Image.open(
+                BytesIO(
+                    respuesta.content
+                )
+            )
+
+        else:
+
+            lbl_error = tk.Label(
+                ventana,
+                text=
+                "No fue posible cargar la imagen.\n"
+                "Wikipedia limitó las consultas."
+            )
+
+            lbl_error.pack(
+                pady=20
+            )
+
+            return
+
+        imagen.thumbnail(
+            (300, 300)
+        )
+
+        foto = ImageTk.PhotoImage(
+            imagen
+        )
+
+        lbl_imagen = tk.Label(
+            ventana,
+            image=foto
+        )
+
+        lbl_imagen.image = foto
+
+        lbl_imagen.pack(
+            pady=10
+        )
+
     else:
-        # Si la API no devolvió imagen (ej. Julio César antiguo)
-        imagen = Image.new('RGB', (300, 300), color='gray')
 
-    # Escalado correcto (proporcional gracias a thumbnail)
-    imagen.thumbnail((300, 300))
-    foto = ImageTk.PhotoImage(imagen)
+        lbl_sin_imagen = tk.Label(
+            ventana,
+            text="Imagen no disponible"
+        )
 
-    lbl_imagen = tk.Label(ventana, image=foto)
-    lbl_imagen.image = foto
-    lbl_imagen.pack(pady=10)
+        lbl_sin_imagen.pack(
+            pady=20
+        )
 
-    lbl_desc = tk.Label(ventana, text=datos["descripcion"], wraplength=500, justify="left")
-    lbl_desc.pack(padx=20, pady=10)
+    lbl_desc = tk.Label(
+        ventana,
+        text=datos["descripcion"],
+        wraplength=500,
+        justify="left"
+    )
 
-    # Mostrar Fuente y Captura requeridas
-    lbl_fuente = tk.Label(ventana, text=f"Fuente: {datos['fuente']}", wraplength=500, fg="blue")
-    lbl_fuente.pack(pady=2)
+    lbl_desc.pack(
+        padx=20,
+        pady=10
+    )
 
-    lbl_captura = tk.Label(ventana, text=f"Captura: {datos['captura']}", font=("Arial", 10, "italic"))
-    lbl_captura.pack(pady=5)
+    lbl_fuente = tk.Label(
+        ventana,
+        text=
+        f"Fuente: {datos['fuente']}",
+        wraplength=500
+    )
+
+    lbl_fuente.pack(
+        pady=10
+    )
+
+    lbl_fecha = tk.Label(
+        ventana,
+        text=
+        f"Consulta API: {datos['fecha_consulta']}"
+    )
+
+    lbl_fecha.pack(
+        pady=5
+    )
+
+if __name__ == "__main__":
+
+    from api_wikipedia import (
+        obtener_datos_famoso
+    )
+
+    datos = obtener_datos_famoso(
+        "Madonna"
+    )
+
+    mostrar_famoso(
+        datos
+    )

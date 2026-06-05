@@ -10,49 +10,74 @@ INSTRUCCIONES DE USO - PROYECTO FAMOSOS
 
 4. Navegar hasta la carpeta del proyecto:
 
-   cd ruta\de\la\carpeta\Normalizador_Famosos
+   cd ruta\de\la\carpeta\Registros_Famosos
 
    Ejemplo:
    cd C:\Users\Usuario\Desktop\Registros_Famosos
 
-5. Ejecutar el programa principal:
+5. Ejecutar el programa:
 
    python main_famosos.py
 
-6. Al abrirse la ventana "Famosos", verás el listado con el formato del nuevo documento:
+6. Al abrirse la aplicación, presionar el botón:
+
+   "Cargar CSV"
+
+7. Seleccionar el archivo de famosos que desea procesar. (Use los datos normalizados de la parte 2)
+
+   Ejemplo:
+   famosos_normalizados.csv
+
+8. El sistema procesará automáticamente el archivo:
+
+   • Generará el archivo consolidado.
+   • Cargará la información en la lista principal.
+
+9. Una vez cargados los datos, aparecerá un listado con el formato:
 
    • [NOMBRE DEL FAMOSO] - [EDAD] años
 
    Ejemplo:
+
    • ABRAHAM LINCOLN - 217 años
-   • JULIUS CAESAR - 2126 años
    • ALBERT EINSTEIN - 147 años
+   • MICHAEL JACKSON - 67 años
 
-7. Para ver el detalle de un famoso:
+10. Para visualizar la información de un famoso:
 
-   • Hacer clic sobre el nombre en la lista para seleccionarlo.
+   • Seleccionar un nombre de la lista.
    • Presionar el botón "Ver información".
 
-8. Al abrirse el visor detallado, la app mostrará:
+11. El visor mostrará:
 
    • Nombre del famoso.
-   • Imagen oficial (escalada correctamente a 300x300 sin deformarse).
-   • Resumen biográfico obtenido de Wikipedia.
-   • Enlace de la fuente de datos.
+   • Fotografía obtenida desde Wikipedia.
+   • Descripción biográfica.
+   • Fuente de la información.
+   • Fecha y hora en que se realizó la consulta.
 
-9. Optimización de consultas (Sistema de Caché):
+12. Sistema de caché:
 
-   • La primera vez que buscas a un famoso, la app viaja a internet a buscar sus datos.
-   • Las siguientes veces, los cargará al instante desde el archivo local "cache_famosos.json".
-   • Esto ahorra datos y evita que la API bloquee la app por exceso de consultas.
+   • La primera consulta obtiene los datos desde internet.
+   • Las siguientes consultas utilizan el archivo local.
+   • Esto reduce el consumo de consultas a la API.
 
-10. Si un famoso no tiene foto disponible en Wikipedia:
-   • El sistema no se caerá; en su lugar, mostrará un recuadro gris por defecto.
+13. Si Wikipedia no dispone de imagen para el famoso:
 
-11. Los archivos generados por el sistema estarán en:
+   • El sistema mostrará el mensaje:
+     "Imagen no disponible".
 
-   • Carpeta "outputs"
-     - famosos_consolidados.csv (Lista limpia con las edades ya calculadas).
+14. Archivos generados por la aplicación:
 
-   • Carpeta "data"
-     - cache_famosos.json (Historial de datos e imágenes guardadas de la API).
+   Carpeta "outputs"
+
+   • famosos_consolidados.csv
+
+   Carpeta "data"
+
+   • cache_famosos.json
+
+15. Requisitos de conexión:
+
+   • Se requiere acceso a internet para obtener la información de Wikipedia la primera vez.
+   • Las consultas posteriores pueden utilizar los datos almacenados en caché.

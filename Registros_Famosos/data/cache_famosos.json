@@ -16,5 +16,96 @@
         "descripcion": "Diego Armando Maradona was an Argentine professional football player and manager. Widely regarded as one of the greatest players in the history of the sport, he was one of the two joint winners of the FIFA Player of the Century award, alongside Pelé.",
         "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Argentina_celebrando_copa_%28cropped%29.jpg/330px-Argentina_celebrando_copa_%28cropped%29.jpg",
         "fuente": "https://en.wikipedia.org/api/rest_v1/page/summary/Diego_Maradona"
+    },
+    "Beethoven": {
+        "nombre": "Ludwig van Beethoven",
+        "descripcion": "Ludwig van Beethoven was a German composer, conductor, and pianist. Mentored during the Classical period, Beethoven's musical style was a key driver of the transition to Romantic music, and the expansion of popular forms such as the symphony and string quartet. His compositions have attracted casual and scholarly interest, and remain among the most performed in the world.",
+        "fecha_consulta": "2026-06-05 00:45:46",
+        "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Joseph_Karl_Stieler%27s_Beethoven_mit_dem_Manuskript_der_Missa_solemnis.jpg/330px-Joseph_Karl_Stieler%27s_Beethoven_mit_dem_Manuskript_der_Missa_solemnis.jpg",
+        "fuente": "https://en.wikipedia.org/api/rest_v1/page/summary/Beethoven"
+    },
+    "Mozart": {
+        "nombre": "Wolfgang Amadeus Mozart",
+        "descripcion": "Wolfgang Amadeus Mozart was a Classical composer and musician. He completed more than 800 works in his life—including outstanding examples of most of the genres of his time: symphonies, concertos, chamber music, opera, and choral music.",
+        "fecha_consulta": "2026-06-05 00:46:23",
+        "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/The_Mozart_Family_-_Wolfgang_Amadeus_Mozart_headshot.jpg/330px-The_Mozart_Family_-_Wolfgang_Amadeus_Mozart_headshot.jpg",
+        "fuente": "https://en.wikipedia.org/api/rest_v1/page/summary/Mozart"
+    },
+    "Leonardo da Vinci": {
+        "nombre": "Leonardo da Vinci",
+        "descripcion": "Leonardo di ser Piero da Vinci was an Italian polymath of the High Renaissance who was active as a painter, draughtsman, engineer, scientist, theorist, sculptor, and architect. While his fame initially rested on his achievements as a painter, he has also become known for his notebooks, in which he made drawings and notes on a variety of subjects, including anatomy, astronomy, botany, cartography, painting, and palaeontology. Leonardo is widely regarded as a genius who epitomised the Renaissance humanist ideal, and his collective works contributed to the development of European art to an extent rivalled only by that of his younger contemporary Michelangelo.",
+        "fecha_consulta": "2026-06-05 00:48:59",
+        "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Francesco_Melzi_-_Portrait_of_Leonardo.png/330px-Francesco_Melzi_-_Portrait_of_Leonardo.png",
+        "fuente": "https://en.wikipedia.org/api/rest_v1/page/summary/Leonardo_da_Vinci"
+    },
+    "JULIUS CAESAR": {
+        "nombre": null,
+        "descripcion": null,
+        "fecha_consulta": "2026-06-05 01:10:25",
+        "imagen": null,
+        "fuente": "https://en.wikipedia.org/api/rest_v1/page/summary/JULIUS_CAESAR"
+    },
+    "MARIE CURIE": {
+        "nombre": null,
+        "descripcion": null,
+        "fecha_consulta": "2026-06-05 01:11:41",
+        "imagen": null,
+        "fuente": "https://en.wikipedia.org/api/rest_v1/page/summary/MARIE_CURIE"
+    },
+    "ANNE FRANK": {
+        "nombre": null,
+        "descripcion": null,
+        "fecha_consulta": "2026-06-05 01:16:17",
+        "imagen": null,
+        "fuente": "https://en.wikipedia.org/api/rest_v1/page/summary/ANNE_FRANK"
+    },
+    "BEETHOVEN": {
+        "nombre": null,
+        "descripcion": null,
+        "fecha_consulta": "2026-06-05 01:17:58",
+        "imagen": null,
+        "fuente": "https://en.wikipedia.org/api/rest_v1/page/summary/BEETHOVEN"
+    },
+    "Charles Darwin": {
+        "nombre": "Charles Darwin",
+        "descripcion": "Charles Robert Darwin was an English naturalist, geologist, and biologist, widely known for his contributions to evolutionary biology. His proposition that all species of life have descended from a common ancestor is now generally accepted and considered a fundamental scientific concept. In a joint presentation with Alfred Russel Wallace, he introduced his scientific theory that this branching pattern of evolution resulted from a process he called natural selection, in which the struggle for existence has a similar effect to the artificial selection involved in selective breeding. Darwin has been described as one of the most influential figures in human history and was honoured by burial in Westminster Abbey.",
+        "fecha_consulta": "2026-06-05 01:20:24",
+        "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Charles_Darwin_seated_crop.jpg/330px-Charles_Darwin_seated_crop.jpg",
+        "fuente": "https://en.wikipedia.org/api/rest_v1/page/summary/Charles_Darwin"
+    },
+    "Abraham Lincoln": {
+        "nombre": "Abraham Lincoln",
+        "descripcion": "Abraham Lincoln was the 16th president of the United States, serving from 1861 until his assassination in 1865. He led the United States through the American Civil War, defeating the Confederacy and playing a major role in the abolition of slavery.",
+        "fecha_consulta": "2026-06-05 01:33:00",
+        "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Abraham_Lincoln_1863_Portrait_%283x4_cropped%29.jpg/330px-Abraham_Lincoln_1863_Portrait_%283x4_cropped%29.jpg",
+        "fuente": "https://en.wikipedia.org/api/rest_v1/page/summary/Abraham_Lincoln"
+    },
+    "Neil Armstrong": {
+        "nombre": "Neil Armstrong",
+        "descripcion": "Neil Alden Armstrong was an American astronaut and aeronautical engineer who, as the commander of the 1969 Apollo 11 mission, became the first person to walk on the Moon. He was also a naval aviator, test pilot and university professor.",
+        "fecha_consulta": "2026-06-05 01:33:30",
+        "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Neil_Armstrong_pose.jpg/330px-Neil_Armstrong_pose.jpg",
+        "fuente": "https://en.wikipedia.org/api/rest_v1/page/summary/Neil_Armstrong"
+    },
+    "Nelson Mandela": {
+        "nombre": "Nelson Mandela",
+        "descripcion": "Nelson Rolihlahla Mandela was a South African anti-apartheid activist, statesman, and revolutionary who was the first president of South Africa from 1994 to 1999. He was the country's first Black head of state and the first elected in a fully representative democratic election. His administration focused on dismantling the legacy of apartheid by fostering racial reconciliation, a national peace accord and eventual multiracial democracy. Ideologically an African nationalist and socialist, he served as the president of the African National Congress (ANC) party from 1991 to 1997.",
+        "fecha_consulta": "2026-06-05 01:34:05",
+        "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Nelson_Mandela_1994.jpg/330px-Nelson_Mandela_1994.jpg",
+        "fuente": "https://en.wikipedia.org/api/rest_v1/page/summary/Nelson_Mandela"
+    },
+    "Amelia Earhart": {
+        "nombre": "Amelia Earhart",
+        "descripcion": "Amelia Mary Earhart was an American aviator and aviation pioneer who became one of the most celebrated figures of early flight.",
+        "fecha_consulta": "2026-06-05 01:40:22",
+        "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Amelia_Earhart_standing_under_nose_of_her_Lockheed_Model_10-E_Electra%2C_small_%28cropped%29.jpg/330px-Amelia_Earhart_standing_under_nose_of_her_Lockheed_Model_10-E_Electra%2C_small_%28cropped%29.jpg",
+        "fuente": "https://en.wikipedia.org/api/rest_v1/page/summary/Amelia_Earhart"
+    },
+    "Alexander The Great": {
+        "nombre": "Alexander the Great",
+        "descripcion": "Alexander III of Macedon, most commonly known as Alexander the Great, was king of the ancient Greek kingdom of Macedon. He succeeded his father Philip II to the throne in 336 BC at the age of 20, and spent most of his reign conducting a lengthy military campaign throughout Asia and Egypt. By the age of 30, he had created one of the largest empires in history, stretching from Greece to northwestern India. He was undefeated in battle and is widely considered to be one of history's greatest and most successful military commanders.",
+        "fecha_consulta": "2026-06-05 01:49:46",
+        "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Alexander_Mosaic_detail_of_Alexander_the_Great_%283x4_cropped%29.jpg/330px-Alexander_Mosaic_detail_of_Alexander_the_Great_%283x4_cropped%29.jpg",
+        "fuente": "https://en.wikipedia.org/api/rest_v1/page/summary/Alexander_The_Great"
     }
 }
